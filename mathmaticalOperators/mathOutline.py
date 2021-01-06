@@ -43,16 +43,13 @@ g=1/4
 #one new variable.
 h=1.5/3.0
 
-
 #9) Make two int variables and use the % operator to combine them into
 #one new variable.
 i=8%2
 
-
 #10) Make two int variables and use the // operator to combine them into
 #one new variable.
 j=7//5
-
 
 #11) Make two int variables and use the ** operator to combine them into
 #one new variable.
