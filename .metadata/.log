@@ -889,3 +889,43 @@ java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\c
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
 	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+!SESSION 2021-03-15 14:58:48.813 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-15 14:59:09.772
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ITAUser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.brainwy.liclipsetext.shared_core 4 4 2021-03-15 14:59:11.210
+!MESSAGE C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\com.brainwy.liclipse.editor_7.0.0.202009061243\etc\5ftubovoey83j6ukwbvenckp0 (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.0\plugins\com.brainwy.liclipse.editor_7.0.0.202009061243\etc\5ftubovoey83j6ukwbvenckp0 (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
+	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-03-15 15:05:05.000
+!MESSAGE Unable to get PythonNature on project: P/conditional
+!STACK 0
+java.lang.RuntimeException: Unable to get PythonNature on project: P/conditional
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ui.actions.container.PyAddSrcFolder.doActionOnContainer(PyAddSrcFolder.java:49)
+	at org.python.pydev.ui.actions.container.PyContainerAction$1.run(PyContainerAction.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-03-15 15:09:09.281
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\OneDrive\Desktop\ITA\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\condition\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-03-15 18:12:44.781
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\OneDrive\Desktop\ITA\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\loops\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
