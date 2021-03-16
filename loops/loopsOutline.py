@@ -27,18 +27,27 @@ while(x<100):
 
 #3) Make a int list with three items inside. Make a for loop that prints 
 #out all the items.
-
-
+listOne =[1,2,3]
+for x in listOne:
+    print(x)
 
 #4) Make a string list with three items inside: "Michael", "Chris", "Nino". 
 #Make a for loop that prints out all the items. Add an if statement that 
 #breaks the loop if the item equals "Chris".
-
-
-
+listThree = ["Michael","Chris","Nino"]
+for x in listThree:
+    print(x)
+    if(x == "Chris"):
+        break
 #5) Make a while loop with a common SYNTAX error.
-
+x = 0
+while(x<=20:
+    print(x)
+    x=x+1
 
 
 #6) Make a for loop with a common SYNTAX error.
 
+listOne =[1,2,3]
+fr x in listOne:
+    print(x)
